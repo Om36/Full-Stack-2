@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dashboard Component - Snapshot Tests renders empty state correctly 1`] = `
+<div
+  data-testid="dashboard-empty"
+>
+  <h2>
+    Dashboard
+  </h2>
+  <div>
+    No data available.
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests renders error state correctly 1`] = `
+<div
+  data-testid="dashboard-error"
+>
+  <h2>
+    Dashboard
+  </h2>
+  <div
+    style="color: red;"
+  >
+    Error loading data. Please try again.
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests renders loaded state with data correctly 1`] = `
+<div
+  data-testid="dashboard-loaded"
+>
+  <h2>
+    Dashboard
+  </h2>
+  <div>
+    <h3>
+      Items (
+      3
+      )
+    </h3>
+    <ul>
+      <li
+        data-testid="dashboard-item-0"
+      >
+        Item 1
+         - 
+        Value 1
+      </li>
+      <li
+        data-testid="dashboard-item-1"
+      >
+        Item 2
+         - 
+        Value 2
+      </li>
+      <li
+        data-testid="dashboard-item-2"
+      >
+        Item 3
+         - 
+        Value 3
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests renders loaded state with empty data array correctly 1`] = `
+<div
+  data-testid="dashboard-loaded"
+>
+  <h2>
+    Dashboard
+  </h2>
+  <div>
+    <h3>
+      Items (
+      0
+      )
+    </h3>
+    <ul />
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests renders loading state correctly 1`] = `
+<div
+  data-testid="dashboard-loading"
+>
+  <h2>
+    Dashboard
+  </h2>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
