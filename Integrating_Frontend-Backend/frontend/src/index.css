@@ -1,0 +1,94 @@
+:root {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #202124;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  max-width: 980px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+td, th {
+  border: 1px solid #e2e8f0;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.form-box {
+  display: grid;
+  gap: 12px;
+  max-width: 420px;
+  margin-top: 8px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2f80ed;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+button[type='button'] {
+  background: #62748f;
+}
+
+.protected-panel {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.message {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.message.info {
+  background: #e8f0fe;
+  color: #1d4ed8;
+}
+
+.message.success {
+  background: #ecfdf5;
+  color: #0f766e;
+}
+
+.message.error {
+  background: #fef2f2;
+  color: #991b1b;
+}
