@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://full-stack-2-9h0s.onrender.com/api',
+        target: 'http://localhost:8080',
         changeOrigin: true
       }
     }
