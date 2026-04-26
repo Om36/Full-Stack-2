@@ -5,7 +5,7 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('https://full-stack-2-9h0s.onrender.com/api/hello')
+    fetch('https://full-stack-2-d7pv.onrender.com/api/hello')
       .then(res => res.text())
       .then(data => {
         setMessage(data)
